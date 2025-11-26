@@ -1,0 +1,41 @@
+/* CSS FOOTER CODE */
+#footer{
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #0A0A0A;
+	margin-top: -10px;
+	color: #fff;
+}
+#footer_div_1{
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	color: black;
+	line-height: 25px;
+}
+#footer_div_2{
+	width: 15%;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #fff;
+}
+#Img_footer{
+	width: 15%;
+	height: auto;
+	margin:0 auto;
+	margin-top: 10px;
+	color: #ffffff;
+
+}
+#copyright_div{
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: center;
+	color: #000037;
+}

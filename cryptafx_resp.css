@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1046px){
+.header_links{
+display: none;
+}
+#slida{
+	height: 300px;
+}
+#h3{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.imglogo2{
+	width: 150px;
+}
+#imgdiv{
+	height: 300px;
+}
+.diva1{
+	width: 100%;
+	margin-left: 0px;
+	border: 0px;
+}
+.diva2{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+.signup_resp{
+	display: block;
+}
+#fafa_icon{
+	display: block;
+}
+.Whitepaper{
+	width: 88%;
+	margin-top: -18px;
+
+}
+#main_div_1{
+	width: 95%;
+}
+#main_div_2_1{
+	width: 90%;
+}
+#main_body_2{
+	width: 97%;
+}
+#main_body_2_div_1{
+	width: 90%;
+}
+#main_body_2_div_header{
+	width: 90%;
+}
+#img_curved_div{
+	width: 85%;
+	height: 30px;
+	margin-top: 20px;
+	background-color: #f7f7f7;
+}
+#phone_img{
+	margin-left: 50px;
+}
+#calculator_div{
+	margin-top: 500px;
+}
+#invstPlan{
+	width: 90%;
+	margin-top: 20px;
+}
+#invstAmnt{
+	width: 90%;
+}
+#mother_div_plans{
+	width: 97%;
+	margin-left: 5px;
+}
+#div_below_plans{
+	width: 92%;
+}
+#video_embede_div{
+	width: 100%;
+	margin-right: 0px;
+}
+#our_rep{
+	width: 95%;
+	margin-left: 10px;
+}
+#our_rep_2{
+	width: 95%;
+	background-color: black;
+	margin-left: 10px;
+}
+#img_clients{
+	width: 100%;
+	height: auto;
+}
+.depo{
+	width: 95%;
+	margin-left: -4px;
+}
+#Team_member_div{
+	width: 100%;
+	margin-left: 0px;
+}
+#footer_div_2{
+	width: 90%;
+}
+#Img_footer{
+	width: 85%;
+	margin:0 auto;
+}
+}

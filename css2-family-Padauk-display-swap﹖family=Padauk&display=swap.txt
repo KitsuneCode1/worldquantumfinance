@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Padauk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/padauk/v15/RrQRboJg-id7OnbBaw.ttf) format('truetype');
+}
