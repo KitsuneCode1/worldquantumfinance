@@ -60,6 +60,91 @@
 --wcm-overlay-background-color: rgba(0, 0, 0, 0.3); 
 --wcm-overlay-backdrop-filter: none;" class="__variable_2289ea dark tw-custom-scrollbar !tw-scrollbar" data-sentry-component="RootLayout" data-sentry-source-file="layout.tsx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<style>
+    :root {
+  --card-bg: #070b13;
+  --text-light: #e5e5e5;
+  --accent: 50 86% 72%;
+}
+
+.investment-plans {
+  color: var(--text-light);
+  padding: 70px 20px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  opacity: 0.85;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.plan-card {
+  background: var(--card-bg);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.plan-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px hsl(50 86% 62%);
+}
+
+.percentage {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsl(var(--accent));
+  margin-bottom: 10px;
+  text-shadow: 0 0 12px var(--accent);
+}
+
+.plan-card h3 {
+  font-size: 1.7rem;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
+.plan-card ul li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+.btn-primary {
+  background-color: hsl(var(--accent));
+  color: black;
+  margin-top: 3rem;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  letter-spacing: 1.65px;
+}
+.btn-primary:hover{
+    background-color: hsl(50 86% 82%);
+}
+</style>
 <link rel="preload" href="_next/static/media/a2117d63e64fe351-s.p.woff2" as="font" type="font/woff2">
 <link rel="preload" as="image" href="_next/static/media/background-desktop.5a650333.jpg" fetchpriority="high">
 <link rel="stylesheet" href="Earn%20and%20Borrow%20Crypto%20_%20World%20Liberty%20Financial_files/677eea9678e4a5dd.css" data-precedence="next">
@@ -353,7 +438,7 @@
                                     <li>﻿﻿It protects all involved parties from corruption and manipulation within the banking system.</li>
                                     <li>It ensures that banks are monitored and safeguarded in relation to the agreed contract of the money transfer process.</li>
                                     <li>It operates independently of the current centralized system.</li>
-                                    <li>﻿﻿It is not a cryptocurrency, but a digital currency backed by assets.</li>
+                                    <li>﻿﻿It is not a cryptocurrency, but a digital currency backed by asset.</li>
                                 </ul>
                             </div>
                         </div>
@@ -369,6 +454,76 @@
                             third party.
                         </p>
                     </div>
+                    <section class="investment-plans tw-w-full">
+                        <div class="container">
+                            <h2 class="section-title">INVESTMENT PLAN</h2>
+                            <p class="section-subtitle" style="font-size: 1rem;">OUR OUTLINED PLANS FOR YOUR PREFERRED SELECTIONS</p>
+    
+                            <div class="plans-grid">
+    
+                            <!-- BASIC PLAN -->
+                            <div class="plan-card">
+                                <div class="percentage">20%</div>
+                                <h3>BASIC PLAN</h3>
+                                <ul>
+                                    <li><strong>Duration:</strong> After 12 Hours</li>
+                                    <li><strong>Minimum Deposit:</strong> $50</li>
+                                    <li><strong>Maximum Deposit:</strong> $699</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+    
+                            <!-- ADVANCE PLAN -->
+                            <div class="plan-card">
+                                <div class="percentage">40%</div>
+                                <h3>ADVANCE PLAN</h3>
+                                <ul>
+                                    <li><strong>Duration:</strong> After 24 Hours</li>
+                                    <li><strong>Minimum Deposit:</strong> $700</li>
+                                    <li><strong>Maximum Deposit:</strong> $2499</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+    
+                            <!-- ULTIMATE PLAN -->
+                            <div class="plan-card">
+                                <div class="percentage">60%</div>
+                                <h3>ULTIMATE PLAN</h3>
+                                <ul>
+                                    <li><strong>Duration:</strong> After 48 Hours</li>
+                                    <li><strong>Minimum Deposit:</strong> $3000</li>
+                                    <li><strong>Maximum Deposit:</strong> $7499</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+    
+                            <!-- GOLDEN PLAN -->
+                            <div class="plan-card">
+                                <div class="percentage">80%</div>
+                                <h3>GOLDEN PLAN</h3>
+                                <ul>
+                                    <li><strong>Duration:</strong> After 96 Hours</li>
+                                    <li><strong>Minimum Deposit:</strong> $7500</li>
+                                    <li><strong>Maximum Deposit:</strong> $14499</li>
+                                </ul>
+                               <a href="#" class="btn btn-primary">Get Started</a> 
+                            </div>
+    
+                            <!-- VIP PLAN -->
+                            <div class="plan-card">
+                                <div class="percentage">100%</div>
+                                <h3>VIP PLAN</h3>
+                                <ul>
+                                    <li><strong>Duration:</strong> 168 Hours</li>
+                                    <li><strong>Minimum Deposit:</strong> $20,000</li>
+                                    <li><strong>Maximum Deposit:</strong> Unlimited</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+    
+                            </div>
+                        </div>
+                    </section>
                     <div class="tw-w-full tw-px-4">
                         <p class="tw-mt-2 tw-text-[12px] tw-text-white/50" data-sentry-component="WlfiDisclaimer" data-sentry-source-file="wlfi-disclaimer.tsx">
                             No legal, tax, investment, or other advice is provided by any entity.
@@ -380,6 +535,8 @@
                         </p>
                     </div>
                 </section>
+
+
                 <footer class="tw-mt-16 tw-block tw-w-full" data-sentry-component="SiteFooterHomepage" data-sentry-source-file="site-footer-home.tsx"><div class="tw-container-padding tw-container tw-w-full"><div class="tw-px-4 tw-py-10"><div class="tw-flex tw-flex-col tw-gap-10 lg:tw-flex-row lg:tw-justify-between"><div class="tw-flex tw-flex-1 tw-flex-row tw-items-center tw-justify-between tw-gap-10"><div class="tw-flex tw-items-center tw-gap-4"><span class="tw-flex tw-items-center tw-justify-center tw-rounded-full tw-bg-gradient-to-tr tw-from-[#ffe898] tw-to-[#57370e] tw-p-[1.1px]"><span class="tw-mt-px tw-flex tw-rounded-full tw-bg-[#0E0E0E] tw-from-[#ffe898] tw-to-[#57370e] hover:tw-bg-gradient-to-tr"><a target="_blank" rel="noopener noreferrer noindex nofollow" title="&quot;World Liberty Financial X&quot;" class="tw-inline-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-text-sm tw-font-medium tw-transition-colors focus-visible:tw-outline-none focus-visible:tw-ring-1 focus-visible:tw-ring-ring disabled:tw-pointer-events-none disabled:tw-opacity-50 tw-text-accent-foreground tw-rounded-full hover:tw-bg-accent-light hover:tw-border-accent-light tw-group tw-size-11 !tw-rounded-full tw-border tw-border-accent tw-bg-transparent tw-p-0 hover:!tw-bg-accent hover:!tw-text-accent-foreground md:tw-size-16" href="https://x.com/worldlibertyfi"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="tw-text-white tw-size-4 !tw-text-accent group-hover:!tw-text-accent-foreground md:tw-size-7"><path d="M13.1032 0H15.6575L10.0492 6.38572L16.6015 15.0481H11.4596L7.43378 9.78404L2.82496 15.0481H0.270668L6.21217 8.21815L-0.0625 0H5.20711L8.8442 4.80873L13.1032 0ZM12.2092 13.5488H13.6252L4.46303 1.44373H2.94157L12.2092 13.5488Z" fill="currentColor"></path></svg></a></span></span><span class="tw-flex tw-items-center tw-justify-center tw-rounded-full tw-bg-gradient-to-tr tw-from-[#ffe898] tw-to-[#57370e] tw-p-[1.1px]"><span class="tw-mt-px tw-flex tw-rounded-full tw-bg-[#0E0E0E] tw-from-[#ffe898] tw-to-[#57370e] hover:tw-bg-gradient-to-tr"><a target="_blank" rel="noopener noreferrer noindex nofollow" title="&quot;World Liberty Financial Telegram&quot;" class="tw-inline-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-text-sm tw-font-medium tw-transition-colors focus-visible:tw-outline-none focus-visible:tw-ring-1 focus-visible:tw-ring-ring disabled:tw-pointer-events-none disabled:tw-opacity-50 tw-text-accent-foreground tw-rounded-full hover:tw-bg-accent-light hover:tw-border-accent-light tw-group tw-size-11 !tw-rounded-full tw-border tw-border-accent tw-bg-transparent tw-p-0 hover:!tw-bg-accent hover:!tw-text-accent-foreground md:tw-size-16" href="https://t.me/Worldlibertyfi01"><svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="tw-text-white tw-size-4 !tw-text-accent group-hover:!tw-text-accent-foreground md:tw-size-7"><path d="M1.05852 6.21728C1.05852 6.21728 8.69466 3.08341 11.343 1.97989C12.3582 1.53852 15.8011 0.126021 15.8011 0.126021C15.8011 0.126021 17.3902 -0.491895 17.2577 1.00882C17.2135 1.6268 16.8604 3.7896 16.5074 6.129C15.9776 9.43948 15.4038 13.0589 15.4038 13.0589C15.4038 13.0589 15.3156 14.0741 14.5652 14.2507C13.8148 14.4272 12.5789 13.6328 12.3582 13.4562C12.1816 13.3238 9.04776 11.3375 7.90014 10.3664C7.59115 10.1016 7.23805 9.57192 7.94424 8.95395C9.53329 7.49734 11.4313 5.68763 12.5789 4.54001C13.1086 4.01031 13.6382 2.77442 11.4313 4.27513C8.2974 6.43799 5.20763 8.46841 5.20763 8.46841C5.20763 8.46841 4.50138 8.90978 3.17722 8.51252C1.85299 8.11531 0.308103 7.58561 0.308103 7.58561C0.308103 7.58561 -0.751183 6.92353 1.05852 6.21728Z" fill="currentColor"></path></svg></a></span></span></div><div class="tw-flex tw-flex-row tw-items-center tw-gap-4"><a class="xl:text-base tw-text-sm tw-font-medium tw-text-accent hover:tw-cursor-pointer hover:tw-text-white" data-sentry-element="Link" data-sentry-source-file="site-footer-home.tsx" href="privacy-policy.html">Privacy Policy</a></div></div></div><p class="tw-mt-16 tw-text-xs tw-font-normal tw-text-white/50 md:tw-text-base">© 2025 WorldLibertyFinancial, Inc. All Rights Reserved.</p><p class="tw-text-[12px] tw-text-white/50 tw-mt-2" data-sentry-component="WlfiUkDisclaimer" data-sentry-source-file="wlfi-uk-disclaimer.tsx">If you are resident in the UK, you acknowledge that this information is only intended to be available to persons who meet the requirements of qualified investors (i) who have professional experience in matters relating to investments who fall within the definition of “investment professional” in article 19(5) of the Financial Services And Markets Act 2000 (Financial Promotion) Order 2005, as amended (the “Order”), or (ii) who are high net worth companies, unincorporated associations and partnerships and trustees of high value trusts as described in article 49(2) of the Order i.e. broadly, companies with called up share capital or net assets of £5 million or more and trustees of trusts with gross assets of £10 million or more, or (iii) persons not located in the UK, and (iv) other persons to whom it may otherwise lawfully be communicated in accordance with the Order; and to whom this communication may otherwise lawfully be made (all such persons together being referred to as “relevant persons”). Any purchase or purchase activity to which this information relates is available only to and will only be engaged in with such relevant persons. This communication must not be acted on or relied on in the United Kingdom, by persons who are not relevant persons. Persons of any other description in the United Kingdom are not permitted to receive and should not act or rely on this information.</p></div></div></footer><div class="tw-fixed tw-inset-x-0 tw-bottom-0 tw-z-[200] tw-w-full tw-duration-700 sm:!tw-left-auto sm:!tw-right-4 sm:tw-bottom-4 sm:tw-max-w-lg tw-translate-y-8 tw-opacity-0 tw-transition-[opacity,transform] tw-hidden"><div class="tw-m-1 tw-mb-0.5 tw-rounded-md tw-border tw-border-border tw-bg-background tw-shadow-lg"><div class="tw-grid tw-gap-2"><div class="tw-flex tw-h-14 tw-items-center tw-justify-between tw-border-b tw-border-border tw-p-4"><h1 class="tw-text-lg tw-font-medium">This website uses cookies</h1><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cookie tw-size-[1.2rem]"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path><path d="M8.5 8.5v.01"></path><path d="M16 15.5v.01"></path><path d="M12 12v.01"></path><path d="M11 17v.01"></path><path d="M7 14v.01"></path></svg></div><div class="tw-p-4"><p class="tw-break-words tw-text-start tw-text-sm tw-font-normal">We use cookies to enhance your experience and analyze site usage. Click "Accept" to allow all cookies or "Reject" to decline non-essential cookies. Learn more in our <a class="tw-text-accent tw-underline hover:tw-text-white" href="privacy-policy.html">Privacy policy</a></p> </div><div class="tw-flex tw-gap-2 tw-border-t tw-border-border tw-bg-background/20 tw-p-4 tw-py-5"><button class="tw-inline-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-font-medium tw-transition-colors focus-visible:tw-outline-none focus-visible:tw-ring-1 focus-visible:tw-ring-ring disabled:tw-pointer-events-none disabled:tw-opacity-50 tw-bg-accent tw-text-accent-foreground tw-border tw-border-accent hover:tw-bg-accent-light hover:tw-border-accent-light tw-py-2 tw-px-4 tw-h-10 lg:tw-h-14 !tw-h-10 tw-w-full tw-max-w-full tw-rounded-full tw-text-sm">Accept</button><button class="tw-inline-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-font-medium tw-transition-colors focus-visible:tw-outline-none focus-visible:tw-ring-1 focus-visible:tw-ring-ring disabled:tw-pointer-events-none disabled:tw-opacity-50 hover:tw-border-accent-light tw-py-2 tw-px-4 tw-h-10 lg:tw-h-14 !tw-h-10 tw-w-full tw-max-w-full tw-rounded-full tw-border tw-border-accent tw-bg-transparent tw-text-sm tw-text-accent hover:tw-bg-accent hover:tw-text-black">Reject</button></div></div></div></div></div><wcm-modal><template shadowrootmode="open"><!----><wcm-explorer-context><template shadowrootmode="open"><!----></template></wcm-explorer-context><wcm-theme-context><template shadowrootmode="open"><!----></template></wcm-theme-context><div id="wcm-modal" role="alertdialog" aria-modal="true" class=" wcm-overlay "><div class="wcm-container" tabindex="0"><!--?lit$960273414$--></div></div></template></wcm-modal>
             <!--Start of Tawk.to Script-->
 <script type="text/javascript">
